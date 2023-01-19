@@ -21,15 +21,13 @@ html{
     max-width: 100vw;
     width: 100%;
     height: 100%;
-    background:url("img/pexels-hamza-nouasria-12628400\ \(1\).jpg") center;
-    background-size: cover;
+    background:url("img/pexels-hamza-nouasria-12628400\ \(1\).jpg");
+    background-size: auto;
     background-repeat: no-repeat;
 }
 
 .main{
-    max-width: 100vw;
-    
-    
+    max-width: 2560px;
    
 }
 
@@ -166,10 +164,6 @@ flex-direction: column;
    align-items: center;
    width: 64%;
    
-
-
-
-    
 }
 
 
@@ -345,7 +339,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endCo
     height: 760px;
     gap:10px;
     background-color: var(--persian-green);
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     
 }
@@ -370,13 +364,12 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endCo
     display: flex;
     justify-content: center;
     align-items: center;
-        
     width: 100%;
     height: 600px;
     margin-top: 15px;
-    max-width: 80vw;
+    max-width: 90vw;
     flex-wrap: wrap;
-    gap:120px;
+    gap:5rem;
    
 }
 
@@ -558,7 +551,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endCo
 
 .category__opcion{
     width: 150px;
-    height: 50%;
+    height: 100px;;
     background-color: var(--black);
     align-items: center;
 }
@@ -605,7 +598,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endCo
     align-items: center;
     background-color: var(--rich-black);
     width: 100%;
-    height: 110%;
+    height: 900;
     gap:10px
 
 }
