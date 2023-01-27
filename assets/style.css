@@ -4,6 +4,7 @@
 
 html{
     scroll-behavior: smooth;
+    scroll-padding-top: 45%;
 }
 
 * {
@@ -18,13 +19,13 @@ html{
 
 ::-webkit-scrollbar{
     width:8px;
-    background-color: var(--black);
+    background-color: var(--rich-black);
 }
 ::-webkit-scrollbar-track{
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.9);
-    border-radius: 10px;
+    border-radius: 1rem;
     
-    background-color: var(--black);
+     background-color: var(--rich-black);
 }
 ::-webkit-scrollbar-thumb{
     border-radius: 10px;
@@ -75,8 +76,8 @@ width: 25%;
 .header__logo,
 .footer__logo{
     padding:0.3rem;
-    width: 90px;
-    height: 70px;
+    width: 6rem;
+    height: 5rem;
 
 }
 
@@ -180,6 +181,7 @@ flex-direction: column;
    justify-content: flex-start;
    align-items: center;
    width: 64%;
+   margin-top:1rem;
    
 }
 
@@ -406,17 +408,19 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endCo
     display: flex;
     width: 100%;
     height: 40%;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     align-items: center;
     justify-content: center;
+   
  
    }
 
    .card__img{
     margin-top: 2rem;
+    padding: 1rem;
     display: block;
-    max-width: 100%;
     height: auto;
+    width: 100%;
     align-items: center;
     justify-content: center;
     
@@ -435,10 +439,11 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endCo
    }
 
    .card__name{
-    font-size: 1,2rem;
+    font-size: 1.4rem;
     justify-content: center;
     text-align: center;
     font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
    }
 
    .card__conteiner__shop{
@@ -565,6 +570,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endCo
     flex-direction: column;
     justify-content: center;
     margin-bottom: 5rem;
+
     
     background: rgb(241,230,230);
     background: -moz-linear-gradient(0deg, rgba(241,230,230,1) 28%, rgba(185,185,186,1) 54%);
@@ -701,6 +707,19 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endCo
 }
 
 /*--------------------------- FOOTER --------------------------- */
+
+.header__btn:hover,
+.carrito:hover{
+    display: flex;
+    color: var(--persian-green);
+    transform: scale(1.1);
+   
+    transition: all .25s ease-in-out;
+}
+
+.category__conteiner__data:hover{
+    transform: scale(1.1);
+}
 
 :root{
     --black: #000000ff;

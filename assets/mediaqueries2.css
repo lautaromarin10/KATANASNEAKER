@@ -141,7 +141,7 @@
     }
 
     .brand__conteiner{
-        max-width: 90%;
+        max-width: 100%;
     }
 
     .info__title{
@@ -149,7 +149,8 @@
     }
 
     .category__conteiner{
-        gap:1.5rem;
+        gap:1%;
+        max-width: 90%;
         
     }
 
@@ -158,40 +159,41 @@
     }
 
     .category__conteiner__data{
-        width: 10rem;
+        width: 15%;
         height: 6rem;
-        margin-bottom: 1rem;
+        margin-bottom: 0.3rem;
     }
 
     .popular__sneaker__conteiner,
     .products__conteiner{
         gap:1.5rem;
-        max-width: 100%;
+        max-width: 95%;
     }
     
     .card{
-        height: 17rem ;
+        height: 20rem ;
         width: 40%;
-        padding:0.3rem;
+        padding:0.5rem;
     }
 
     .card__img{
-        height: 6em;
-        margin-top:5px;
+        height: 9rem;
+        width: 13rem;
+        margin-top:3rem;
     }
 
     .card__info{
-        margin-top:0px;
+        /* margin-top:2rem; */
     }
 
     .card__name{
-        font-size:1.3rem;
+        font-size:1.2rem;
     }
 
     .card__conteiner__shop{
         height: 45%;
         flex-wrap: wrap;
-        gap:1rem;
+        gap:0.5rem;
         margin-top:0px;
         flex-direction: column;
         
@@ -204,8 +206,13 @@
         font-size:0,4rem;
     }
 
+    .brand__name{
+        font-size: 70%;
+    }
+
 
 }
+
 
 @media all and (max-width: 479px) {
     .popular__title,
@@ -256,7 +263,7 @@
     }
 
     .card__img{
-        height: 6em;
+        /* height: 6em; */
         margin-top:5px;
     }
 
@@ -265,7 +272,7 @@
     }
 
     .card__name{
-        font-size:1.3rem;
+        font-size:1.1rem;
     }
 
     .card__conteiner__shop{
