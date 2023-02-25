@@ -1,0 +1,604 @@
+
+@media (max-width: 992px){
+    .navbar__list{
+        
+        justify-content: center;
+        align-items: center;
+        gap:30px;
+        position: absolute;
+        top:90px;
+        left:5%;
+        /* right: 5%; */
+        width: 90vw;
+        flex-direction: column;
+        background-color: var(--rich-black);
+        border: 2px solid #2a9d8fff;
+        border-top:unset;
+        border-radius:0px 0px 15px 15px;
+        padding:45px 30px;
+        display: none;
+    }
+
+    .hero__buttom__conteiner{
+       justify-content: center;
+       width: 25rem;
+    }
+
+    .open-menu {
+        display: flex;
+      }
+
+    .navbar{
+        gap:40px
+    }
+
+    .menu-label{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .header{
+        /* gap:2rem; */
+        background-color: var(--rich-black);
+        border-bottom: 1px solid #2a9d8fff;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 1rem;
+    }
+
+    
+
+    .header__cart__icon{
+        display: flex;
+        width: 20px;
+        margin-right: 2rem;
+        align-items: center;
+    }
+
+    .header__img__conteiner{
+        margin-right: 25rem;
+        width: 20%;
+    }
+
+    .header__btn{
+        color: var(#edf7f6ff);
+        
+    }
+
+    .navbar{
+        width: 20%;
+    }
+
+    
+    }
+
+    
+    
+
+
+   
+
+
+
+ 
+@media  (min-width: 1200px) {
+
+    .popular__sneaker__conteiner{
+        gap:3rem;
+    }
+
+    .category__conteiner{
+        gap:3rem
+    }
+
+    }
+    
+
+@media  (min-width: 960px) and (max-width: 1199px) {
+
+    .navbar__list{
+        /* width: 100%; */
+        justify-content: center;
+    
+    }
+    .hero__title{
+        height: 30rem;
+        width: 50rem;
+    }
+
+    .brand__conteiner{
+        max-width: 90%;
+    }
+
+    .brand__conteiner__data{
+        width: 90%;
+    }
+
+    .info__title{
+        font-size: 3rem;
+    }
+
+    .about{
+        font-size:2rem
+    }
+
+    .category__conteiner{
+        gap:1rem;
+    }
+
+    .category__conteiner__data{
+     width: 100%;
+     max-width: 90%;
+    }
+
+    .brand__name{
+        font-size: 1.2rem;
+        width: 9rem;
+        height: 4rem;
+    }
+
+    .popular__sneaker__conteiner,
+    .products__conteiner{
+        gap:10rem;
+        max-width: 90%;
+    }
+
+    .products__conteiner{
+        gap:5rem
+    }
+
+    .navbar{
+        margin-right: 1rem;
+    }
+
+ }
+
+@media all and (min-width: 768px) and (max-width: 959px) {
+    .navbar__list{
+        justify-content: center;
+    }
+
+    .hero__title{
+        height: 30rem;
+        width: 40rem;
+    }
+
+    .brand__conteiner{
+        max-width: 100%;
+    }
+
+    
+
+    .category__conteiner{
+        gap:1rem;
+
+    }
+
+    .category__conteiner__data{
+        max-width: 90%;
+    }
+
+    .brand__name{
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+        width: 7rem;
+        height: 3.3rem;
+    }
+
+    .cart{
+        background: var(--rich-black);
+        min-width: 0px;
+        width: 100%;
+        padding: 8rem 4rem;
+    }
+
+
+    .header{
+        gap:1rem
+    }
+
+    .cart{
+        max-width: 100vw;
+    }
+    
+
+ }
+
+@media all and (min-width: 480px) and (max-width: 767px){
+
+
+    .cart{
+
+        background:var(--rich-black);
+        width: 100%;
+        height: calc(100vh - 90px);
+        justify-content: center;
+        align-items: center;
+        border-left:none;
+        padding:0px 0px;
+        min-width: 0px;
+        /* gap:1rem */
+    }
+
+    .cart__total{
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button__conteiner{
+        width: 90%;
+    }
+
+    .btn-borrar,
+    .btn-comprar{
+        letter-spacing: 0px;
+        font-size:100%;
+        padding:0.4rem 2rem;
+    }
+
+    .navbar{
+        justify-content: flex-end;
+    }
+
+    .header__img__conteiner{
+       margin-right: 0px;
+    }
+
+    .hero__title{
+        height: 25rem;
+        width: 25rem;
+    }
+
+    .body{
+        background-size:auto;
+    }
+
+    .products__title,
+    .popular__title,
+    .category__title
+    {
+        font-size:3.1rem;
+    }
+
+    .popular__title{
+        font-size:3.1rem
+    }
+
+    .about{
+        font-size:1.5rem;
+    }
+
+    .brand__conteiner__data{
+        width: 100%;
+    }
+
+    .brand__conteiner{
+        max-width: 100%;
+    }
+
+    .info__title{
+        font-size:2.5rem;
+    }
+
+    .category__conteiner{
+        gap:1%;
+        /* max-width: 90%; */
+        
+    }
+
+    .products__title{
+        margin-top:3rem;
+    }
+
+    .category__conteiner__data{
+        width: 15%;
+        height: 6rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .popular__sneaker__conteiner,
+    .products__conteiner{
+        gap:1.5rem;
+        max-width: 95%;
+    }
+    
+    .card{
+        height: 20rem ;
+        width: 40%;
+        padding:0.5rem;
+    }
+
+    .card__img{
+        height: 9rem;
+        width: 13rem;
+        margin-top:3rem;
+    }
+
+
+
+    .card__name{
+        font-size:1.2rem;
+    }
+
+    .card__conteiner__shop{
+        height: 45%;
+        flex-wrap: wrap;
+        gap:0.5rem;
+        margin-top:0px;
+        flex-direction: column;
+        
+    }
+
+   
+
+    .botoncompra-hover{
+        height: 2rem;
+        font-size:0,4rem;
+    }
+
+    .brand__name{
+        font-size: 70%;
+        width: 8rem;
+        height: 3rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .cart__item{
+        width: 400px;
+    }
+ 
+
+
+}
+
+
+@media all and (max-width: 479px) {
+
+    .brand__name{
+        width: 7rem;
+        height: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .navbar{
+        justify-content: flex-end;
+        gap:1rem;
+    }
+
+    .header__img__conteiner{
+       margin-right: 0px;
+    }
+
+    .header__logo{
+        margin-left: 1rem;
+        height: 5rem;
+        width: 5rem;
+    }
+    .popular__title,
+    .category__title,
+    .products__title,
+    .contacto__title{
+        font-size: 2.5rem;
+        letter-spacing: 0px;
+    }
+
+    .hero__title{
+        height: 20rem;
+        width: 17rem;
+    }
+
+    .hero__buttom__conteiner{
+        width: 100%;
+        justify-content: center;
+        margin-top:2rem;
+    }
+
+    .brand__conteiner,
+    .brand__conteiner__data{
+       max-width: 90%;
+       width: 100%;
+    }
+
+    .about{
+        font-size:1.5rem;
+    }
+
+    .info__title{
+        font-size:1.5rem
+    }
+
+    .degrade__span{
+        font-size:2rem
+    }
+
+    .popular__sneaker__conteiner,
+    .products__conteiner{
+        gap:1.3rem;
+        max-width: 90%;
+    }
+    
+    .card{
+        height: 14rem ;
+        width: 40%;
+        padding:0.3rem; 
+
+        width: 8rem;
+        height: 14rem;
+
+
+    }
+
+    .card__img{
+       
+        height: 100%;
+        width: 100%;
+        margin-top:0px; 
+
+
+
+    }
+
+    .card__info{
+        margin-top:0px;
+    }
+
+    .card__name{
+        font-size:1rem;
+    }
+
+    .card__conteiner__shop{
+        height: 100%;
+        flex-wrap: wrap;
+        gap:7%;
+        margin-top: 0px; 
+    }
+
+    .card__conteiner__img{
+        /* height: 40%; */
+        margin-bottom:0px;
+        height: 45%;
+    }
+    
+    .card__price{
+        font-size:130%
+    }
+
+   
+
+    .botoncompra-hover{
+        height: 2rem;
+        font-size:0,4rem; 
+    }
+
+    .category__conteiner{
+        gap:1rem;
+        margin-top: 2px;
+        max-width: 100%;
+    }
+
+    .category__conteiner__data{
+        height: 4rem;
+        width: 25%;
+        margin-bottom: 1.4rem;
+        
+    }
+
+    .brand__name{
+        font-size:0.8rem;
+        
+    }
+
+    .sneaker__name{
+        font-size:0.9rem
+    }
+
+    .products__title{
+        margin-top:2rem;
+    }
+
+    .body{
+        background-size:cover;
+    
+    }
+
+    .cart{
+
+        background:var(--rich-black);
+        width: 100%;
+        height: calc(100vh - 90px);
+        justify-content: center;
+        align-items: center;
+        border-left:none;
+        padding:0px 0px;
+        min-width: 0px;
+        /* gap:1rem */
+    }
+
+    .cart__total{
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* .button__conteiner{
+        width: 90%;
+    } */
+
+    .btn-borrar,
+    .btn-comprar{
+        letter-spacing: 0px;
+        font-size:100%;
+        padding:0.4rem 2rem;
+    }
+
+    .contact__info,
+    .contact__type{
+        font-size:1.1rem;
+    }
+
+    .contact__icon{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .cart__item{
+        width: 340px;
+    }
+ 
+
+}
+
+
+@media all and (max-width: 970px) {
+    .contact__data{
+        font-size:1.5rem;
+       
+    }
+
+    .contact__conteiner{
+        max-width: 90%;
+    }
+
+
+}
+
+
+@media all and (max-width:594px){
+    .advertencia{
+        font-size:0.7rem;
+    }
+}
+
+@media all and (max-width:355px){
+
+
+    .cart__item{
+        width: 250px;
+    }
+
+    .cart__img{
+        display: none;
+    }
+
+    .item__handler{
+        gap:0.3rem;
+    }
+
+
+    .advertencia{
+        display: none;
+    }
+
+    .contact__info,
+    .contact__type{
+        font-size:0.9rem;
+    }
+
+    .contact__icon{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+ 
+}
+

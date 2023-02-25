@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="assets/login/login.css">
+    <title>REGISTRO</title>
+    <link rel="stylesheet" href="assets/register/register.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="assets/login/loginmediaqueries.css">
+    <link rel="stylesheet" href="assets/register/registermediaqueries.css">
 
 </head>
 
@@ -27,8 +27,8 @@
 
     <main class="main">
 
-        <div class="login">
-            <div class="login__conteiner">
+        <div class="register">
+            <div class="register__conteiner">
 
                 <div class="banner__conteiner">
                     <img src="assets/img/KATANA-SNEAKER.png" alt="" class="banner__img">
@@ -36,19 +36,26 @@
                 </div>
 
 
-                <div class="login__content">
+                <div class="register__content">
 
-                    <div class="login__form">
+                    <div class="register__form">
                         <i class="fa-regular fa-user"></i>
-                        <h1 class="title">LOGIN</h2>
+                        <h1 class="title">REGISTRO</h2>
                             <form id="form" class="form">
 
                                 <div class="form__field">
+
                                     <input type="text" id="user" class="input" autocomplete="off"
                                         placeholder="Username">
                                     <small class="form__msg"></small>
                                 </div>
 
+                                <div class="form__field">
+
+                                    <input type="mail" id="mail" class="input" autocomplete="off"
+                                        placeholder="E-Mail" />
+                                    <small class="form__msg"></small>
+                                </div>
 
                                 <div class="form__field">
                                     <input type="password" id="password" class="input" autocomplete="off"
@@ -56,15 +63,22 @@
                                     <small class="form__msg"></small>
                                 </div>
 
+                                <div class="form__field">
+
+                                    <input type="password" id="password2" class="input" autocomplete="off"
+                                        placeholder="repita su Password" />
+                                    <small class="form__msg"></small>
+
+                                </div>
 
 
                                 <input type="submit" class="boton" />
 
                             </form>
                     </div>
-
-                    <div class="register__link">
-                        <p class="text">No tenes cuenta? </p> <a href="register.html" class="link">registrese aqui</a>
+                    <div class="login__link">
+                        <p class="text">YA ESTAS REGISTRADO? </p> <a href="login.html" class="link">LOGUEATE
+                            AQUI</a>
                     </div>
 
                 </div>
@@ -80,11 +94,9 @@
 
 
 
-
-
     </main>
 
-    <script src="./assets/login/login.js"></script>
+    <script src="./assets/register/register.js"></script>
 </body>
 
 </html>

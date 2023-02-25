@@ -1,0 +1,83 @@
+@media  (min-width: 768px) and (max-width: 1050px) {
+
+    .banner__conteiner{
+        width: 40%;
+    }
+
+    .login__content{
+        width: 60%;
+    }
+
+    .login__conteiner{
+        margin-top: 5rem;
+        height: 70%;
+    }
+
+    .banner__img{
+        width: 23rem;
+        height: 23rem;
+    }
+    
+    .link,
+    .text{
+        font-size: 1rem;
+    }
+
+    .header__logo{
+        height: 5rem;
+        width: 5rem;
+    }
+    
+}
+
+@media  (min-width: 320px) and (max-width: 767px) {
+
+    .header__logo{
+        height: 4rem;
+        width: 5rem;
+        margin-left: 0rem;
+        padding: 0rem;
+    }
+
+    .header{
+        margin-left: 1.3rem;
+    }
+    .login__conteiner{
+        margin-top: 5rem;
+        height: 70%;
+    }
+
+    .login__content{
+        width: 70%;
+    }
+
+    .banner__conteiner{
+        display: none;
+    }
+
+    .link,
+    .text{
+        font-size: 0.8rem;
+    }
+
+
+}
+
+@media (min-width:320px ) and (max-width: 389px){
+
+    .login__content{
+        width: 80%;
+    }
+
+    .login__conteiner{
+        height: 70%;
+    }
+   
+    .link,
+    .text{
+        font-size: 0.7rem;
+        justify-content: center;
+        display: flex;
+    }
+
+}

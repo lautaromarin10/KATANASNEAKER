@@ -1,0 +1,99 @@
+@media  (min-width: 768px) and (max-width: 1200px) {
+
+    .banner__conteiner{
+        width: 40%;
+    }
+
+    .register__content{
+        width: 60%;
+    }
+
+    .register__conteiner{
+        margin-top: 5rem;
+        height: 80%;
+    }
+
+    .banner__img{
+        margin-left: 1rem;
+        width: 23rem;
+        height: 23rem;
+    }
+    
+    .link,
+    .text{
+        font-size: 1rem;
+    }
+
+    .header__logo{
+        height: 5rem;
+        width: 5rem;
+    }
+    
+}
+
+@media  (min-width: 320px) and (max-width: 767px) {
+
+    .input{
+        width: 100%;
+    }
+    .header__logo{
+        height: 4rem;
+        width: 4rem;
+        margin-left: 0rem;
+        padding: 0rem;
+    }
+
+    .header{
+        margin-left: 1.3rem;
+    }
+    .register__conteiner{
+        margin-top: 5rem;
+        height: 83%;
+    }
+
+    .register__content{
+        width: 70%;
+    }
+
+    .banner__conteiner{
+        display: none;
+    }
+
+    .link,
+    .text{
+        font-size: 0.8rem;
+    }
+
+
+}
+
+@media (min-width:320px ) and (max-width: 389px){
+
+    .form__msg{
+        font-size:0.7rem
+    }
+
+    .input::placeholder{
+        font-size: 0.7rem;
+    }
+
+    .register__content{
+        width: 80%;
+    }
+
+    .register__conteiner{
+        height: 80%;
+    }
+   
+    .link,
+    .text{
+        font-size: 0.7rem;
+        justify-content: center;
+        display: flex;
+    }
+
+    .title{
+        font-size:1.5rem
+    }
+
+}
