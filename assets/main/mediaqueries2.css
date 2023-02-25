@@ -602,3 +602,32 @@
  
 }
 
+@media all and (min-width: 320px) and (max-width: 710px){
+
+    .header{
+        gap:unset;
+        justify-content: center;
+        margin-right: unset;
+    }
+
+    
+    
+
+    .header__img__conteiner{
+        width: 90%;
+        justify-content: start;
+    }
+
+    .navbar{
+       justify-content: center;
+       width: 10%;
+       height: auto;
+       gap:1rem;
+    }
+    
+    
+
+
+
+
+}
