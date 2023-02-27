@@ -1,9 +1,9 @@
   // Contenedor de productos a renderizar
   const products = document.getElementById("catalogo");
   // Contenedor de productos del carrito
-  const cartCont = document.querySelector(".cart__conteiner");
+  const cartconteiner = document.querySelector(".cart__conteiner");
   //El total en precio del carrito
-  const totalPrice = document.getElementById("totalPrice__price")
+  const totalPrice = document.getElementById("total__price")
   // El contenedor de las categorías
   const categories = document.querySelector(".categories");
   // todos los botones con la clase categoria
@@ -197,13 +197,6 @@ const gettotalPriceValue = () => {
 
 // ------------------------------------   RENDERS Y VISUALIZACION -------------------------------------
 
-const showOverlay = (msg) => {
-    successModal.classList.add("active-overlay");
-    successModal.textContent = msg;
-    setTimeout(() => {
-        successModal.classList.remove("active-overlay");
-    }, 1500);
-};
 
  
 const completeBuy = () => {
@@ -266,7 +259,7 @@ const buyCartProducts = (confirmMsg,sucessMsg) => {
         alert(sucessMsg);
     }
 
-}
+};
 
 const addProductToCart = (e) => {
     if(!e.target.classList.contains("botoncompra")){
@@ -283,16 +276,17 @@ const addProductToCart = (e) => {
     } else {
         createCartProduct(product)
         showOverlay(`Tus ${name} se agrego al carrito `);
+        console.log("error")
     }
 
-    checkCartStatus()
+    checkCartStatus();
 
 };
 
 const showtotalPriceValue = () => {
     // anda bien
    totalPrice.innerHTML = ` $ ${gettotalPriceValue()} USD`;
-}
+};
 
   
 const renderCartProduct = (cartProduct) => {
@@ -325,11 +319,11 @@ const renderCartProduct = (cartProduct) => {
 const renderCart = () => {
     // anda bien
     if (!cart.length){
-        cartCont.innerHTML = `<span class="cart__empty">Tu carrito esta vacio</span>`;
+        cartconteiner.innerHTML = `<span class="cart__empty">Tu carrito esta vacio</span>`;
         return
     } 
-    cartCont.innerHTML = cart.map(renderCartProduct).join("")
-}
+    cartconteiner.innerHTML = cart.map(renderCartProduct).join("")
+};
 
 const changeCategoryStatus = (selectedCategory) => {
     const categories = [...categoriesButtons];
@@ -415,6 +409,15 @@ const showMoreProducts = () => {
     }
 };
 
+const showOverlay = (msg) => {
+    successModal.classList.add("active-overlay");
+    successModal.textContent = msg;
+    setTimeout(() => {
+        successModal.classList.remove("active-overlay");
+    }, 2000);
+};
+
+
 // ------------------------------------   RENDERS Y VISUALIZACION -------------------------------------
 
 
@@ -438,7 +441,7 @@ const showMoreProducts = () => {
     products.addEventListener("click", addProductToCart);
     buyCart.addEventListener("click", completeBuy);
     btnDeleteItems.addEventListener("click", deleteCart);
-    cartCont.addEventListener("click", handleQuantity);
+    cartconteiner.addEventListener("click", handleQuantity);
 
     disableBtn(buyCart)
     disableBtn(btnDeleteItems)  

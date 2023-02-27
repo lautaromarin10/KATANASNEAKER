@@ -90,10 +90,10 @@ justify-content: center;
   color: var(--azure-x-11-web-color);
   font-weight: 100;
   justify-content: center;
-
   gap:50px;
-    
 }
+
+
 
 .header__btn{
 
@@ -1074,8 +1074,7 @@ a:hover{
 }
 
 .brand__name:hover,
-.btn-showmas:hover,
-.contact__data:hover{
+.btn-showmas:hover{
     transform: scale(1.1);
 }
 
@@ -1127,10 +1126,23 @@ a:hover{
 
   .active-overlay {
     transform: translateY(0);
-    transition: all 0.5s ease-in;
+    transition: all 1s ease-in;
   }
 
 
+  .quantity-handler:hover{
+    transform: scale(1.1);
+    transition: all 0.10s ease-in;
+  }
+
+  .quantity-handler.up:hover{
+    background-color: var(--persian-green);
+  }
+
+  .quantity-handler.down:hover{
+    background-color: var(--violet-crayola);
+    
+  }
 
 :root{
     --black: #000000ff;
