@@ -1,9 +1,16 @@
+// Formulario de registro
 const form = document.getElementById("form");
+// Input de usuario
 const userInput = document.getElementById("user");
+// Input de mail
 const mailinput = document.getElementById("mail");
+// Input de contraseña
 const passinput = document.getElementById("password");
+// Input para validar la contraseña del anterior contenedor
 const passinputVerificated = document.getElementById("password2");
 
+
+// -------------------------------------- LOGICA ------------------------------------------
 
 const CheckUser = () => {
 	
@@ -83,11 +90,11 @@ const matchPassword = () => {
 
 
 }
+// -------------------------------------- LOGICA ------------------------------------------
 
 
 
-
-//--------------------------------- utilidades-----------------------------------
+// -------------------------------------- UTILIDADES ------------------------------------------
 
 
 form.addEventListener("submit", (e) => {
@@ -193,3 +200,4 @@ debounce( (e) => {
 })
 );
 
+// -------------------------------------- UTILIDADES ------------------------------------------

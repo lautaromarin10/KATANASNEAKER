@@ -1,7 +1,12 @@
+// Formulario
 const form = document.getElementById("form");
+// Input de usuario
 const userInput = document.getElementById("user");
+// Input de password
 const passinput = document.getElementById("password");
 
+
+// -------------------------------------- LOGICA ------------------------------------------
 
 const CheckUser = () => {
 	
@@ -36,14 +41,13 @@ const checkPassword = () => {
     } else {
         showvalid(passinput);
         valid = true;
-        
     }
     return valid;
 
 }
 
-
-// ------------ UTILIDADES ------------
+// -------------------------------------- LOGICA ------------------------------------------
+// -------------------------------------- UTILIDADES ------------------------------------------
 
 const InputEmpty = (value) => value === "";
 
@@ -126,3 +130,4 @@ form.addEventListener("submit", (e) => {
 
 })
 
+// -------------------------------------- UTILIDADES ------------------------------------------
